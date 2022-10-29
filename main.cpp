@@ -2,5 +2,10 @@
 
 int main(int argc, char*argv[]) {
     Grade gradeBook = Grade();
-    gradeBook.getGrades();
+    gradeBook.getLabs();
+    gradeBook.getHomework();
+    gradeBook.getFinal();
+    gradeBook.getProject();
+    gradeBook.getMEC();
+    gradeBook.calculateGrade();
 }

@@ -5,10 +5,14 @@
 class Grade {
 private:
     std::vector<int> grades;
-    char finalGrade;
 
 public:
     Grade();
-    void getGrades();
+    void getLabs();
+    void getHomework();
+    void getProject();
+    void getFinal();
+    void getMEC();
     void calculateGrade();
 };
+ 
