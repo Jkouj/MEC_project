@@ -128,10 +128,3 @@ void Grade::calculateGrade(){
     std::cout << "\nYour final grade is: " << finalGrade << std::endl;
     
 }
-
-
-// the only thing thats busted is if you enter like a string or like not a number, the program kinda flips out
-// i dont know how to check to see if the input is an integer
-// 
-// 
-//
